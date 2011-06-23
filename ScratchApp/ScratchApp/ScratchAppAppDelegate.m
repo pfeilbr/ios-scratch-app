@@ -11,11 +11,18 @@
 @implementation ScratchAppAppDelegate
 
 @synthesize window = _window;
+@synthesize navigationController = _navigationController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    CGRect screenBounds = [[UIScreen mainScreen] bounds];
+    self.window = [[UIWindow alloc] initWithFrame:screenBounds];
+
+    RootViewController *rootViewController = [[RootViewController alloc] init];
+    self.navigationController = [[UINavigationController alloc] initWithRootViewController:rootViewController];
+    [_window addSubview:_navigationController.view];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

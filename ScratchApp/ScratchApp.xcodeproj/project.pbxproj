@@ -13,6 +13,7 @@
 		C558851A13B2BFB100BE0314 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C558851813B2BFB100BE0314 /* InfoPlist.strings */; };
 		C558851C13B2BFB100BE0314 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C558851B13B2BFB100BE0314 /* main.m */; };
 		C558852013B2BFB100BE0314 /* ScratchAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C558851F13B2BFB100BE0314 /* ScratchAppAppDelegate.m */; };
+		C558852C13B2CBFD00BE0314 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C558852B13B2CBFD00BE0314 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		C558851D13B2BFB100BE0314 /* ScratchApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScratchApp-Prefix.pch"; sourceTree = "<group>"; };
 		C558851E13B2BFB100BE0314 /* ScratchAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScratchAppAppDelegate.h; sourceTree = "<group>"; };
 		C558851F13B2BFB100BE0314 /* ScratchAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScratchAppAppDelegate.m; sourceTree = "<group>"; };
+		C558852A13B2CBFD00BE0314 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C558852B13B2CBFD00BE0314 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,10 @@
 			children = (
 				C558851E13B2BFB100BE0314 /* ScratchAppAppDelegate.h */,
 				C558851F13B2BFB100BE0314 /* ScratchAppAppDelegate.m */,
+				C558852913B2C2B900BE0314 /* Models */,
+				C558852813B2C2AB00BE0314 /* Views */,
+				C558852713B2C29C00BE0314 /* ViewControllers */,
+				C558852613B2C28D00BE0314 /* Vendor */,
 				C558851613B2BFB100BE0314 /* Supporting Files */,
 			);
 			path = ScratchApp;
@@ -88,6 +95,36 @@
 				C558851D13B2BFB100BE0314 /* ScratchApp-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C558852613B2C28D00BE0314 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		C558852713B2C29C00BE0314 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C558852A13B2CBFD00BE0314 /* RootViewController.h */,
+				C558852B13B2CBFD00BE0314 /* RootViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C558852813B2C2AB00BE0314 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C558852913B2C2B900BE0314 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +187,7 @@
 			files = (
 				C558851C13B2BFB100BE0314 /* main.m in Sources */,
 				C558852013B2BFB100BE0314 /* ScratchAppAppDelegate.m in Sources */,
+				C558852C13B2CBFD00BE0314 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
