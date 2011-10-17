@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  ScratchApp
+
+  Created by Brian Pfeil on 8/23/11.
+  Copyright 2011 __MyCompanyName__. All rights reserved.
+*/
+
+"TITLE" = "Hello!";

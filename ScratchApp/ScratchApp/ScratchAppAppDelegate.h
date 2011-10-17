@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "RootViewController.h"
 
+NSDictionary *gConfig;
+
 @interface ScratchAppAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

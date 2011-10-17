@@ -1,0 +1,26 @@
+{
+    "data": {
+        "contacts": [
+            {
+                "name": "Brian",
+                "age": 33,
+                "gender": "male"
+            },
+            {
+                "name": "Tricia",
+                "age": 37,
+                "gender": "female"
+            },
+            {
+                "name": "Wyatt",
+                "age": 5,
+                "gender": "male"
+            },
+            {
+                "name": "Max",
+                "age": 1,
+                "gender": "male"
+            }
+        ]
+    }
+}

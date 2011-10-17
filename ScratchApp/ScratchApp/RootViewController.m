@@ -43,21 +43,22 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+                     
     self.title = @"Scratch App";
     
+    self.parentViewController.view.autoresizesSubviews = YES;
+    self.parentViewController.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin;
+
     self.view.backgroundColor = [UIColor greenColor];
     self.view.autoresizesSubviews = YES;
-    self.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin;
+    self.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin;
     
     CGSize s = self.view.bounds.size;
     UIView *v1 = [[UIView alloc] initWithFrame:CGRectMake(0, s.height - 88, s.width, 88)];
     v1.backgroundColor = [UIColor purpleColor];
     v1.autoresizesSubviews = YES;
-    v1.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin;
+    v1.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin;
     [self.view addSubview:v1];
-   
-    return;
     
     UIViewController *vc1 = [[UIViewController alloc] init];
     vc1.tabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemSearch tag:0];

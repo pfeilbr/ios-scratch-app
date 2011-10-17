@@ -1,0 +1,86 @@
+{
+    "ui": {
+        "main": {
+            "autoshow": {
+                    "enabled": true,
+                    "className": "ScrollViewWithTiledViewsVC",
+                    "displayName": "Scrollview with Tiled Views"
+            },
+            "items": [
+                {
+                    "displayName": "iCloud",
+                    "items": [
+                        {
+                            "className": "UbiquitousKeyValueStoreExampleVC",
+                            "displayName": "Ubiquitous Key/Value Store"
+                        } 
+                    ]
+                },
+                {
+                    "displayName": "UI Controls",
+                    "items": [
+                        {
+                            "className": "UIStepperViewController",
+                            "displayName": "Stepper"
+                        },
+                        {
+                            "className": "GroupedTVC",
+                            "displayName": "Grouped Table View Controller"
+                        },
+                        {
+                            "className": "AutoResizeViewsVC",
+                            "displayName": "Auto Resize Views"
+                        },
+                        {                              
+                            "className": "CustomButtonVC",
+                            "displayName": "Custom Button"
+                        },
+                        {
+                            "className": "CustomToolbarVC",
+                            "displayName": "Custom Toolbar"
+                        },
+                        {
+                            "className": "ScrollViewWithTiledViewsVC",
+                            "displayName": "Scrollview with Tiled Views"
+                        }
+                    ]
+                },
+                {
+                    "displayName": "Core Graphics",
+                    "items": [
+                        {
+                            "className": "CGDrawingExamplesViewController",
+                            "displayName": "Shap Drawing"
+                        },
+                        {
+                            "className": "CGTextExamplesVC",
+                            "displayName": "Text"
+                        },
+                        {
+                            "className": "CGDrawImageExamplesVC",
+                            "displayName": "Draw Image"
+                        }    
+                    ]
+                },
+                {
+                    "displayName": "Core Animation",
+                    "items": [
+                        {
+                            "className": "CALayerImageExampleViewController",
+                            "displayName": "Image As Contents"
+                        },
+                        {
+                            "className": "CALayerDrawLayerInContextExampleViewController",
+                            "displayName": "Draw Layer In Context"
+                        },
+                              {
+                              "className": "LayerShadowsVC",
+                              "displayName": "Layer Shadows"
+                              }                              
+                              
+                    ]
+                }
+            ]
+        }
+    }
+}

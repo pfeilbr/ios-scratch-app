@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5094F5513C3F0E900EB394B /* UIStepperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5094F5413C3F0E900EB394B /* UIStepperViewController.m */; };
+		C50C5C0513BF889300450645 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C50C5C0413BF889300450645 /* QuartzCore.framework */; };
+		C50C5C0913BF8C4C00450645 /* Apple.png in Resources */ = {isa = PBXBuildFile; fileRef = C50C5C0813BF8C4C00450645 /* Apple.png */; };
+		C50C5C1413C2123700450645 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = C50C5C1313C2123700450645 /* config.json */; };
+		C50C5C3913C2167A00450645 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C50C5C2E13C2167A00450645 /* NSObject+SBJSON.m */; };
+		C50C5C3A13C2167A00450645 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C50C5C3013C2167A00450645 /* NSString+SBJSON.m */; };
+		C50C5C3B13C2167A00450645 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C50C5C3213C2167A00450645 /* SBJSON.m */; };
+		C50C5C3C13C2167A00450645 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C50C5C3413C2167A00450645 /* SBJsonBase.m */; };
+		C50C5C3D13C2167A00450645 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C50C5C3613C2167A00450645 /* SBJsonParser.m */; };
+		C50C5C3E13C2167A00450645 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = C50C5C3813C2167A00450645 /* SBJsonWriter.m */; };
+		C50C5C4113C2329700450645 /* ItemsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C50C5C4013C2329700450645 /* ItemsTableViewController.m */; };
+		C512B00A14044F8D00916A06 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C512B00C14044F8D00916A06 /* Localizable.strings */; };
+		C512B00D14044F9600916A06 /* UbiquitousKeyValueStoreExampleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C512B00F14044F9600916A06 /* UbiquitousKeyValueStoreExampleVC.m */; };
+		C541DBF713C26D040078BED1 /* CGDrawingExamplesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C541DBF613C26D030078BED1 /* CGDrawingExamplesViewController.m */; };
+		C54BF97313D3204300EDE56E /* CustomToolbarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C54BF97213D3204300EDE56E /* CustomToolbarVC.m */; };
 		C558851013B2BFB100BE0314 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C558850F13B2BFB100BE0314 /* UIKit.framework */; };
 		C558851213B2BFB100BE0314 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C558851113B2BFB100BE0314 /* Foundation.framework */; };
 		C558851413B2BFB100BE0314 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C558851313B2BFB100BE0314 /* CoreGraphics.framework */; };
@@ -14,9 +29,49 @@
 		C558851C13B2BFB100BE0314 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C558851B13B2BFB100BE0314 /* main.m */; };
 		C558852013B2BFB100BE0314 /* ScratchAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C558851F13B2BFB100BE0314 /* ScratchAppAppDelegate.m */; };
 		C558852C13B2CBFD00BE0314 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C558852B13B2CBFD00BE0314 /* RootViewController.m */; };
+		C55E6698144BB91C00132EF4 /* ScrollViewWithTiledViewsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C55E6697144BB91C00132EF4 /* ScrollViewWithTiledViewsVC.m */; };
+		C594410E13C23E7C009BA42A /* CALayerImageExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C594410D13C23E7C009BA42A /* CALayerImageExampleViewController.m */; };
+		C59CE47513DC9355008C98E3 /* LayerShadowsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C59CE47413DC9355008C98E3 /* LayerShadowsVC.m */; };
+		C59D776913CF8A08004F75C8 /* GroupedTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C59D776813CF8A08004F75C8 /* GroupedTVC.m */; };
+		C59D776C13CF8ABE004F75C8 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = C59D776B13CF8ABE004F75C8 /* data.json */; };
+		C59D777313CFC79A004F75C8 /* BPDataMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = C59D777213CFC79A004F75C8 /* BPDataMgr.m */; };
+		C5C57E6013C24A0E0058C8AA /* UIViewControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C57E5F13C24A0E0058C8AA /* UIViewControllerBase.m */; };
+		C5C57E6313C24D520058C8AA /* CALayerDrawLayerInContextExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C57E6213C24D520058C8AA /* CALayerDrawLayerInContextExampleViewController.m */; };
+		C5CA87CC13D25C610075D495 /* AutoResizeViewsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CA87CB13D25C610075D495 /* AutoResizeViewsVC.m */; };
+		C5CA87D013D28D390075D495 /* CustomButtonVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CA87CF13D28D390075D495 /* CustomButtonVC.m */; };
+		C5CD70A413C8CA990015F926 /* CGTextExamplesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CD70A313C8CA990015F926 /* CGTextExamplesVC.m */; };
+		C5CD70AB13CA175D0015F926 /* CGDrawImageExamplesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CD70AA13CA175D0015F926 /* CGDrawImageExamplesVC.m */; };
+		C5CD70B313CA54170015F926 /* BPBox.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CD70B213CA54170015F926 /* BPBox.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C5094F5313C3F0E900EB394B /* UIStepperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIStepperViewController.h; sourceTree = "<group>"; };
+		C5094F5413C3F0E900EB394B /* UIStepperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIStepperViewController.m; sourceTree = "<group>"; };
+		C50C5C0413BF889300450645 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C50C5C0813BF8C4C00450645 /* Apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Apple.png; sourceTree = "<group>"; };
+		C50C5C1313C2123700450645 /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
+		C50C5C2C13C2167A00450645 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		C50C5C2D13C2167A00450645 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		C50C5C2E13C2167A00450645 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		C50C5C2F13C2167A00450645 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		C50C5C3013C2167A00450645 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		C50C5C3113C2167A00450645 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		C50C5C3213C2167A00450645 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		C50C5C3313C2167A00450645 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		C50C5C3413C2167A00450645 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		C50C5C3513C2167A00450645 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		C50C5C3613C2167A00450645 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		C50C5C3713C2167A00450645 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		C50C5C3813C2167A00450645 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		C50C5C3F13C2329700450645 /* ItemsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsTableViewController.h; sourceTree = "<group>"; };
+		C50C5C4013C2329700450645 /* ItemsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsTableViewController.m; sourceTree = "<group>"; };
+		C512B00B14044F8D00916A06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C512B00E14044F9600916A06 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = en; path = en.lproj/UbiquitousKeyValueStoreExampleVC.m; sourceTree = "<group>"; };
+		C512B01014044FA500916A06 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C541DBF513C26D030078BED1 /* CGDrawingExamplesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDrawingExamplesViewController.h; sourceTree = "<group>"; };
+		C541DBF613C26D030078BED1 /* CGDrawingExamplesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGDrawingExamplesViewController.m; sourceTree = "<group>"; };
+		C54BF97113D3204300EDE56E /* CustomToolbarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomToolbarVC.h; sourceTree = "<group>"; };
+		C54BF97213D3204300EDE56E /* CustomToolbarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomToolbarVC.m; sourceTree = "<group>"; };
 		C558850B13B2BFB100BE0314 /* ScratchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScratchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C558850F13B2BFB100BE0314 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C558851113B2BFB100BE0314 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -29,6 +84,34 @@
 		C558851F13B2BFB100BE0314 /* ScratchAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScratchAppAppDelegate.m; sourceTree = "<group>"; };
 		C558852A13B2CBFD00BE0314 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		C558852B13B2CBFD00BE0314 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C55E6696144BB91C00132EF4 /* ScrollViewWithTiledViewsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewWithTiledViewsVC.h; sourceTree = "<group>"; };
+		C55E6697144BB91C00132EF4 /* ScrollViewWithTiledViewsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewWithTiledViewsVC.m; sourceTree = "<group>"; };
+		C594410C13C23E7C009BA42A /* CALayerImageExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALayerImageExampleViewController.h; sourceTree = "<group>"; };
+		C594410D13C23E7C009BA42A /* CALayerImageExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALayerImageExampleViewController.m; sourceTree = "<group>"; };
+		C59CE47313DC9355008C98E3 /* LayerShadowsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerShadowsVC.h; sourceTree = "<group>"; };
+		C59CE47413DC9355008C98E3 /* LayerShadowsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerShadowsVC.m; sourceTree = "<group>"; };
+		C59D776713CF8A08004F75C8 /* GroupedTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupedTVC.h; sourceTree = "<group>"; };
+		C59D776813CF8A08004F75C8 /* GroupedTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupedTVC.m; sourceTree = "<group>"; };
+		C59D776B13CF8ABE004F75C8 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		C59D777113CFC79A004F75C8 /* BPDataMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPDataMgr.h; sourceTree = "<group>"; };
+		C59D777213CFC79A004F75C8 /* BPDataMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPDataMgr.m; sourceTree = "<group>"; };
+		C5C57E5E13C24A0D0058C8AA /* UIViewControllerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewControllerBase.h; sourceTree = "<group>"; };
+		C5C57E5F13C24A0E0058C8AA /* UIViewControllerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewControllerBase.m; sourceTree = "<group>"; };
+		C5C57E6113C24D520058C8AA /* CALayerDrawLayerInContextExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALayerDrawLayerInContextExampleViewController.h; sourceTree = "<group>"; };
+		C5C57E6213C24D520058C8AA /* CALayerDrawLayerInContextExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALayerDrawLayerInContextExampleViewController.m; sourceTree = "<group>"; };
+		C5CA87CA13D25C610075D495 /* AutoResizeViewsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoResizeViewsVC.h; sourceTree = "<group>"; };
+		C5CA87CB13D25C610075D495 /* AutoResizeViewsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoResizeViewsVC.m; sourceTree = "<group>"; };
+		C5CA87CE13D28D390075D495 /* CustomButtonVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButtonVC.h; sourceTree = "<group>"; };
+		C5CA87CF13D28D390075D495 /* CustomButtonVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButtonVC.m; sourceTree = "<group>"; };
+		C5CD70A213C8CA990015F926 /* CGTextExamplesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTextExamplesVC.h; sourceTree = "<group>"; };
+		C5CD70A313C8CA990015F926 /* CGTextExamplesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTextExamplesVC.m; sourceTree = "<group>"; };
+		C5CD70A913CA175D0015F926 /* CGDrawImageExamplesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDrawImageExamplesVC.h; sourceTree = "<group>"; };
+		C5CD70AA13CA175D0015F926 /* CGDrawImageExamplesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGDrawImageExamplesVC.m; sourceTree = "<group>"; };
+		C5CD70AD13CA51C80015F926 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		C5CD70B113CA54160015F926 /* BPBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPBox.h; sourceTree = "<group>"; };
+		C5CD70B213CA54170015F926 /* BPBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPBox.m; sourceTree = "<group>"; };
+		C5FB4EEB1401A67C0040903B /* ScratchApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ScratchApp.entitlements; sourceTree = "<group>"; };
+		C5FB4EEE1401A8960040903B /* UbiquitousKeyValueStoreExampleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UbiquitousKeyValueStoreExampleVC.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C50C5C0513BF889300450645 /* QuartzCore.framework in Frameworks */,
 				C558851013B2BFB100BE0314 /* UIKit.framework in Frameworks */,
 				C558851213B2BFB100BE0314 /* Foundation.framework in Frameworks */,
 				C558851413B2BFB100BE0314 /* CoreGraphics.framework in Frameworks */,
@@ -45,9 +129,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C50C5C0713BF8C0000450645 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C50C5C0813BF8C4C00450645 /* Apple.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		C50C5C2B13C2165600450645 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				C50C5C2C13C2167A00450645 /* JSON.h */,
+				C50C5C2D13C2167A00450645 /* NSObject+SBJSON.h */,
+				C50C5C2E13C2167A00450645 /* NSObject+SBJSON.m */,
+				C50C5C2F13C2167A00450645 /* NSString+SBJSON.h */,
+				C50C5C3013C2167A00450645 /* NSString+SBJSON.m */,
+				C50C5C3113C2167A00450645 /* SBJSON.h */,
+				C50C5C3213C2167A00450645 /* SBJSON.m */,
+				C50C5C3313C2167A00450645 /* SBJsonBase.h */,
+				C50C5C3413C2167A00450645 /* SBJsonBase.m */,
+				C50C5C3513C2167A00450645 /* SBJsonParser.h */,
+				C50C5C3613C2167A00450645 /* SBJsonParser.m */,
+				C50C5C3713C2167A00450645 /* SBJsonWriter.h */,
+				C50C5C3813C2167A00450645 /* SBJsonWriter.m */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
 		C558850013B2BFB100BE0314 = {
 			isa = PBXGroup;
 			children = (
+				C50C5C0413BF889300450645 /* QuartzCore.framework */,
 				C558851513B2BFB100BE0314 /* ScratchApp */,
 				C558850E13B2BFB100BE0314 /* Frameworks */,
 				C558850C13B2BFB100BE0314 /* Products */,
@@ -75,13 +188,16 @@
 		C558851513B2BFB100BE0314 /* ScratchApp */ = {
 			isa = PBXGroup;
 			children = (
+				C5FB4EEB1401A67C0040903B /* ScratchApp.entitlements */,
 				C558851E13B2BFB100BE0314 /* ScratchAppAppDelegate.h */,
 				C558851F13B2BFB100BE0314 /* ScratchAppAppDelegate.m */,
+				C5CD70AC13CA50DF0015F926 /* Utilities */,
 				C558852913B2C2B900BE0314 /* Models */,
 				C558852813B2C2AB00BE0314 /* Views */,
 				C558852713B2C29C00BE0314 /* ViewControllers */,
 				C558852613B2C28D00BE0314 /* Vendor */,
 				C558851613B2BFB100BE0314 /* Supporting Files */,
+				C50C5C0713BF8C0000450645 /* images */,
 			);
 			path = ScratchApp;
 			sourceTree = "<group>";
@@ -93,6 +209,9 @@
 				C558851813B2BFB100BE0314 /* InfoPlist.strings */,
 				C558851B13B2BFB100BE0314 /* main.m */,
 				C558851D13B2BFB100BE0314 /* ScratchApp-Prefix.pch */,
+				C50C5C1313C2123700450645 /* config.json */,
+				C59D776B13CF8ABE004F75C8 /* data.json */,
+				C512B00C14044F8D00916A06 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -100,6 +219,7 @@
 		C558852613B2C28D00BE0314 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				C50C5C2B13C2165600450645 /* JSON */,
 			);
 			name = Vendor;
 			sourceTree = "<group>";
@@ -107,6 +227,14 @@
 		C558852713B2C29C00BE0314 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				C5FB4EED1401A8480040903B /* iCloud */,
+				C5CD70A113C8CA390015F926 /* Core Animation */,
+				C5CD709E13C8C9F50015F926 /* Core Graphics */,
+				C5CD70A013C8CA160015F926 /* UIKit */,
+				C5C57E5E13C24A0D0058C8AA /* UIViewControllerBase.h */,
+				C5C57E5F13C24A0E0058C8AA /* UIViewControllerBase.m */,
+				C50C5C3F13C2329700450645 /* ItemsTableViewController.h */,
+				C50C5C4013C2329700450645 /* ItemsTableViewController.m */,
 				C558852A13B2CBFD00BE0314 /* RootViewController.h */,
 				C558852B13B2CBFD00BE0314 /* RootViewController.m */,
 			);
@@ -123,8 +251,74 @@
 		C558852913B2C2B900BE0314 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C59D777113CFC79A004F75C8 /* BPDataMgr.h */,
+				C59D777213CFC79A004F75C8 /* BPDataMgr.m */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		C5CD709E13C8C9F50015F926 /* Core Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				C541DBF513C26D030078BED1 /* CGDrawingExamplesViewController.h */,
+				C541DBF613C26D030078BED1 /* CGDrawingExamplesViewController.m */,
+				C5CD70A213C8CA990015F926 /* CGTextExamplesVC.h */,
+				C5CD70A313C8CA990015F926 /* CGTextExamplesVC.m */,
+				C5CD70A913CA175D0015F926 /* CGDrawImageExamplesVC.h */,
+				C5CD70AA13CA175D0015F926 /* CGDrawImageExamplesVC.m */,
+			);
+			name = "Core Graphics";
+			sourceTree = "<group>";
+		};
+		C5CD70A013C8CA160015F926 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				C5094F5313C3F0E900EB394B /* UIStepperViewController.h */,
+				C5094F5413C3F0E900EB394B /* UIStepperViewController.m */,
+				C59D776713CF8A08004F75C8 /* GroupedTVC.h */,
+				C59D776813CF8A08004F75C8 /* GroupedTVC.m */,
+				C5CA87CA13D25C610075D495 /* AutoResizeViewsVC.h */,
+				C5CA87CB13D25C610075D495 /* AutoResizeViewsVC.m */,
+				C5CA87CE13D28D390075D495 /* CustomButtonVC.h */,
+				C5CA87CF13D28D390075D495 /* CustomButtonVC.m */,
+				C54BF97113D3204300EDE56E /* CustomToolbarVC.h */,
+				C54BF97213D3204300EDE56E /* CustomToolbarVC.m */,
+				C55E6696144BB91C00132EF4 /* ScrollViewWithTiledViewsVC.h */,
+				C55E6697144BB91C00132EF4 /* ScrollViewWithTiledViewsVC.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		C5CD70A113C8CA390015F926 /* Core Animation */ = {
+			isa = PBXGroup;
+			children = (
+				C594410C13C23E7C009BA42A /* CALayerImageExampleViewController.h */,
+				C594410D13C23E7C009BA42A /* CALayerImageExampleViewController.m */,
+				C5C57E6113C24D520058C8AA /* CALayerDrawLayerInContextExampleViewController.h */,
+				C5C57E6213C24D520058C8AA /* CALayerDrawLayerInContextExampleViewController.m */,
+				C59CE47313DC9355008C98E3 /* LayerShadowsVC.h */,
+				C59CE47413DC9355008C98E3 /* LayerShadowsVC.m */,
+			);
+			name = "Core Animation";
+			sourceTree = "<group>";
+		};
+		C5CD70AC13CA50DF0015F926 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C5CD70AD13CA51C80015F926 /* Utils.h */,
+				C5CD70B113CA54160015F926 /* BPBox.h */,
+				C5CD70B213CA54170015F926 /* BPBox.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		C5FB4EED1401A8480040903B /* iCloud */ = {
+			isa = PBXGroup;
+			children = (
+				C5FB4EEE1401A8960040903B /* UbiquitousKeyValueStoreExampleVC.h */,
+				C512B00F14044F9600916A06 /* UbiquitousKeyValueStoreExampleVC.m */,
+			);
+			name = iCloud;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,12 +346,16 @@
 /* Begin PBXProject section */
 		C558850213B2BFB100BE0314 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = C558850513B2BFB100BE0314 /* Build configuration list for PBXProject "ScratchApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				es,
 			);
 			mainGroup = C558850013B2BFB100BE0314;
 			productRefGroup = C558850C13B2BFB100BE0314 /* Products */;
@@ -175,6 +373,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C558851A13B2BFB100BE0314 /* InfoPlist.strings in Resources */,
+				C50C5C0913BF8C4C00450645 /* Apple.png in Resources */,
+				C50C5C1413C2123700450645 /* config.json in Resources */,
+				C59D776C13CF8ABE004F75C8 /* data.json in Resources */,
+				C512B00A14044F8D00916A06 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,12 +390,52 @@
 				C558851C13B2BFB100BE0314 /* main.m in Sources */,
 				C558852013B2BFB100BE0314 /* ScratchAppAppDelegate.m in Sources */,
 				C558852C13B2CBFD00BE0314 /* RootViewController.m in Sources */,
+				C50C5C3913C2167A00450645 /* NSObject+SBJSON.m in Sources */,
+				C50C5C3A13C2167A00450645 /* NSString+SBJSON.m in Sources */,
+				C50C5C3B13C2167A00450645 /* SBJSON.m in Sources */,
+				C50C5C3C13C2167A00450645 /* SBJsonBase.m in Sources */,
+				C50C5C3D13C2167A00450645 /* SBJsonParser.m in Sources */,
+				C50C5C3E13C2167A00450645 /* SBJsonWriter.m in Sources */,
+				C50C5C4113C2329700450645 /* ItemsTableViewController.m in Sources */,
+				C594410E13C23E7C009BA42A /* CALayerImageExampleViewController.m in Sources */,
+				C5C57E6013C24A0E0058C8AA /* UIViewControllerBase.m in Sources */,
+				C5C57E6313C24D520058C8AA /* CALayerDrawLayerInContextExampleViewController.m in Sources */,
+				C541DBF713C26D040078BED1 /* CGDrawingExamplesViewController.m in Sources */,
+				C5094F5513C3F0E900EB394B /* UIStepperViewController.m in Sources */,
+				C5CD70A413C8CA990015F926 /* CGTextExamplesVC.m in Sources */,
+				C5CD70AB13CA175D0015F926 /* CGDrawImageExamplesVC.m in Sources */,
+				C5CD70B313CA54170015F926 /* BPBox.m in Sources */,
+				C59D776913CF8A08004F75C8 /* GroupedTVC.m in Sources */,
+				C59D777313CFC79A004F75C8 /* BPDataMgr.m in Sources */,
+				C5CA87CC13D25C610075D495 /* AutoResizeViewsVC.m in Sources */,
+				C5CA87D013D28D390075D495 /* CustomButtonVC.m in Sources */,
+				C54BF97313D3204300EDE56E /* CustomToolbarVC.m in Sources */,
+				C59CE47513DC9355008C98E3 /* LayerShadowsVC.m in Sources */,
+				C512B00D14044F9600916A06 /* UbiquitousKeyValueStoreExampleVC.m in Sources */,
+				C55E6698144BB91C00132EF4 /* ScrollViewWithTiledViewsVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		C512B00C14044F8D00916A06 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C512B00B14044F8D00916A06 /* en */,
+				C512B01014044FA500916A06 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		C512B00F14044F9600916A06 /* UbiquitousKeyValueStoreExampleVC.m */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C512B00E14044F9600916A06 /* en */,
+			);
+			name = UbiquitousKeyValueStoreExampleVC.m;
+			sourceTree = "<group>";
+		};
 		C558851813B2BFB100BE0314 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -210,7 +452,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -236,7 +478,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -255,6 +497,7 @@
 		C558852413B2BFB100BE0314 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ScratchApp/ScratchApp.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ScratchApp/ScratchApp-Prefix.pch";
 				INFOPLIST_FILE = "ScratchApp/ScratchApp-Info.plist";
@@ -266,6 +509,7 @@
 		C558852513B2BFB100BE0314 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ScratchApp/ScratchApp.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ScratchApp/ScratchApp-Prefix.pch";
 				INFOPLIST_FILE = "ScratchApp/ScratchApp-Info.plist";
@@ -293,6 +537,7 @@
 				C558852513B2BFB100BE0314 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

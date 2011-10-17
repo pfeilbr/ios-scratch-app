@@ -7,6 +7,7 @@
 //
 
 #import "ScratchAppAppDelegate.h"
+#import "ItemsTableViewController.h"
 
 @implementation ScratchAppAppDelegate
 
@@ -15,13 +16,33 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    // grab config from config.json
+    NSString *configPath = [[NSBundle mainBundle] pathForResource:@"config" ofType:@"json"];
+    NSString *jsonConfigContents = [NSString stringWithContentsOfURL:[NSURL fileURLWithPath:configPath] encoding:NSUTF8StringEncoding error:nil];
+    gConfig = [jsonConfigContents JSONValue];
+        
     // Override point for customization after application launch.
     CGRect screenBounds = [[UIScreen mainScreen] bounds];
     self.window = [[UIWindow alloc] initWithFrame:screenBounds];
 
-    RootViewController *rootViewController = [[RootViewController alloc] init];
-    self.navigationController = [[UINavigationController alloc] initWithRootViewController:rootViewController];
+    ItemsTableViewController *itemsTableViewController = [[ItemsTableViewController alloc] initWithStyle:UITableViewStylePlain];
+    itemsTableViewController.title = @"Scratch App";
+    itemsTableViewController.items = [gConfig valueForKeyPath:@"ui.main.items"];
+    
+    NSDictionary *autoShowItem = [gConfig valueForKeyPath:@"ui.main.autoshow"];
+    if (autoShowItem && [[autoShowItem valueForKeyPath:@"enabled"] boolValue]) {
+        NSString *className = [autoShowItem valueForKeyPath:@"className"];
+        Class klass = NSClassFromString(className);
+        UIViewController *vc = [[klass alloc] init];
+        vc.title = [autoShowItem valueForKeyPath:@"displayName"];
+        self.navigationController = [[UINavigationController alloc] initWithRootViewController:vc];
+    } else {
+        self.navigationController = [[UINavigationController alloc] initWithRootViewController:itemsTableViewController];
+    }
+    
     [_window addSubview:_navigationController.view];
+    
+    NSLog(@"%@", [_window recursiveDescription]);
     
     [self.window makeKeyAndVisible];
     return YES;
